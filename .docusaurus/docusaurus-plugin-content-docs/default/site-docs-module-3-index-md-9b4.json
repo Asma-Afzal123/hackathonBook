@@ -1,0 +1,28 @@
+{
+  "id": "module-3/index",
+  "title": "Module 3 - NVIDIA Isaac for Advanced Perception",
+  "description": "Welcome to Module 3 of the AI-Native Book, where we explore NVIDIA Isaac for advanced perception, simulation, and navigation for humanoid robots. This module is designed for AI/robotics students familiar with ROS 2 and simulation concepts.",
+  "source": "@site/docs/module-3/index.md",
+  "sourceDirName": "module-3",
+  "slug": "/module-3",
+  "permalink": "/docs/module-3",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-3/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 3 - NVIDIA Isaac for Advanced Perception",
+    "sidebar_label": "Introduction",
+    "slug": "/module-3"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Sensor Simulation",
+    "permalink": "/docs/module-2/sensor-simulation"
+  },
+  "next": {
+    "title": "Isaac Sim",
+    "permalink": "/docs/module-3/isaac-sim"
+  }
+}

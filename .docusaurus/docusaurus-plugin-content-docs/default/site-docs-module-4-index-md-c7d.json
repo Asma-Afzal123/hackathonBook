@@ -1,0 +1,28 @@
+{
+  "id": "module-4/index",
+  "title": "Module 4 - Vision-Language-Action Systems",
+  "description": "Welcome to Module 4 of the AI-Native Book, where we explore Vision-Language-Action (VLA) systems for autonomous humanoid behavior. This module is designed for AI/robotics students familiar with ROS 2, simulation, and navigation concepts.",
+  "source": "@site/docs/module-4/index.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4",
+  "permalink": "/docs/module-4",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-4/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 4 - Vision-Language-Action Systems",
+    "sidebar_label": "Introduction",
+    "slug": "/module-4"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Nav2 for Humanoids",
+    "permalink": "/docs/module-3/nav2-humanoid"
+  },
+  "next": {
+    "title": "Voice-to-Action",
+    "permalink": "/docs/module-4/voice-to-action"
+  }
+}

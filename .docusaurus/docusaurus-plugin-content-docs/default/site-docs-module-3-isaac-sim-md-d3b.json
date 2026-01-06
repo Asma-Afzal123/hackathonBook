@@ -1,0 +1,28 @@
+{
+  "id": "module-3/isaac-sim",
+  "title": "NVIDIA Isaac Sim",
+  "description": "Understanding Isaac Sim fundamentals for photorealistic simulation and synthetic data generation",
+  "source": "@site/docs/module-3/isaac-sim.md",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/isaac-sim",
+  "permalink": "/docs/module-3/isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-3/isaac-sim.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "NVIDIA Isaac Sim",
+    "sidebar_label": "Isaac Sim",
+    "description": "Understanding Isaac Sim fundamentals for photorealistic simulation and synthetic data generation"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/module-3"
+  },
+  "next": {
+    "title": "Isaac ROS",
+    "permalink": "/docs/module-3/isaac-ros"
+  }
+}

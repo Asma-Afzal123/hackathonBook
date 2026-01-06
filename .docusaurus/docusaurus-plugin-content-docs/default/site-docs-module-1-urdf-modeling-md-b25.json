@@ -1,0 +1,28 @@
+{
+  "id": "module-1/urdf-modeling",
+  "title": "URDF Modeling for Humanoid Robots",
+  "description": "Understanding links, joints, and kinematic chains in robot modeling",
+  "source": "@site/docs/module-1/urdf-modeling.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/urdf-modeling",
+  "permalink": "/docs/module-1/urdf-modeling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-1/urdf-modeling.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "URDF Modeling for Humanoid Robots",
+    "sidebar_label": "URDF Modeling",
+    "description": "Understanding links, joints, and kinematic chains in robot modeling"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Communication",
+    "permalink": "/docs/module-1/ros2-communication"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/module-2"
+  }
+}

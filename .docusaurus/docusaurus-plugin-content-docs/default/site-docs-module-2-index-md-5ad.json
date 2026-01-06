@@ -1,0 +1,28 @@
+{
+  "id": "module-2/index",
+  "title": "Module 2 - Digital Twins & Physics Simulation",
+  "description": "Welcome to Module 2 of the AI-Native Book, where we explore digital twins and physics-based simulation for humanoid robots. This module is designed for AI/robotics students familiar with ROS 2 basics.",
+  "source": "@site/docs/module-2/index.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2",
+  "permalink": "/docs/module-2",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-2/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Module 2 - Digital Twins & Physics Simulation",
+    "sidebar_label": "Introduction",
+    "slug": "/module-2"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "URDF Modeling",
+    "permalink": "/docs/module-1/urdf-modeling"
+  },
+  "next": {
+    "title": "Digital Twins & Physics",
+    "permalink": "/docs/module-2/digital-twins-physics"
+  }
+}

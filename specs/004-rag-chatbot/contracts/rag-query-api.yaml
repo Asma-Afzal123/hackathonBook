@@ -1,0 +1,95 @@
+# API Contract: RAG Query Service
+
+## Overview
+This document describes the API contract for the RAG (Retrieval Augmented Generation) query service that the chatbot frontend will communicate with.
+
+## API Endpoint
+- **URL**: `/query`
+- **Method**: `POST`
+- **Content-Type**: `application/json`
+
+## Request Format
+
+### Request Body
+```json
+{
+  "query": "string (required) - The user's question or query text"
+}
+```
+
+### Example Request
+```json
+{
+  "query": "What is ROS 2 and how does it differ from ROS 1?"
+}
+```
+
+## Response Format
+
+### Success Response (200 OK)
+```json
+{
+  "response": "string - The AI-generated response to the query",
+  "sources": [
+    {
+      "title": "string - Title of the source document or section",
+      "url": "string - URL or relative path to the source",
+      "snippet": "string (optional) - Excerpt from the source document"
+    }
+  ],
+  "status": "success"
+}
+```
+
+### Example Success Response
+```json
+{
+  "response": "ROS 2 (Robot Operating System 2) is a collection of software libraries and tools that help you build robot applications. It differs from ROS 1 in several key ways including improved security, better real-time support, and a more robust communication system using DDS (Data Distribution Service).",
+  "sources": [
+    {
+      "title": "ROS 2 Fundamentals",
+      "url": "/docs/module-1/ros2-fundamentals",
+      "snippet": "ROS 2 provides improved security, better real-time support, and uses DDS for communication..."
+    }
+  ],
+  "status": "success"
+}
+```
+
+### Fallback Response (200 OK)
+When no relevant answer is found in the knowledge base:
+```json
+{
+  "response": "string - A helpful fallback message",
+  "sources": [],
+  "status": "fallback"
+}
+```
+
+### Error Response (500 Internal Server Error)
+When the API encounters an error:
+```json
+{
+  "error": "string - Error message for the user",
+  "status": "error"
+}
+```
+
+## Error Handling
+
+### Client-Side Error Handling
+The frontend should handle these scenarios:
+- Network errors (connection failures)
+- API errors (500 responses)
+- Invalid response format
+- Empty or malformed responses
+
+### Expected Error Responses
+- `500 Internal Server Error`: Backend processing error
+- `400 Bad Request`: Invalid request format (though unlikely if client is properly implemented)
+
+## Implementation Notes
+
+- The API endpoint is expected to be hosted alongside or accessible from the frontend
+- Responses should be appropriately cached to improve performance
+- The API should return responses within 10 seconds (per success criteria in spec)

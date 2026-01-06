@@ -1,0 +1,28 @@
+{
+  "id": "module-2/sensor-simulation",
+  "title": "Sensor Simulation",
+  "description": "Simulated sensors (LiDAR, depth cameras, IMUs) and their use for AI training",
+  "source": "@site/docs/module-2/sensor-simulation.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/sensor-simulation",
+  "permalink": "/docs/module-2/sensor-simulation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-2/sensor-simulation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Sensor Simulation",
+    "sidebar_label": "Sensor Simulation",
+    "description": "Simulated sensors (LiDAR, depth cameras, IMUs) and their use for AI training"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Simulation Environments",
+    "permalink": "/docs/module-2/simulation-environments"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/module-3"
+  }
+}

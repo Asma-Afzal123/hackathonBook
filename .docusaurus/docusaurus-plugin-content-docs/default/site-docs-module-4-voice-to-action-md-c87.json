@@ -1,0 +1,24 @@
+{
+  "id": "module-4/voice-to-action",
+  "title": "Voice-to-Action Systems",
+  "description": "Speech-to-text processing with OpenAI Whisper and translating voice commands into robot intents",
+  "source": "@site/docs/module-4/voice-to-action.md",
+  "sourceDirName": "module-4",
+  "slug": "/module-4/voice-to-action",
+  "permalink": "/docs/module-4/voice-to-action",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-4/voice-to-action.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Voice-to-Action Systems",
+    "sidebar_label": "Voice-to-Action",
+    "description": "Speech-to-text processing with OpenAI Whisper and translating voice commands into robot intents"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/module-4"
+  }
+}

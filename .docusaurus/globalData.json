@@ -1,0 +1,135 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/index",
+              "path": "/docs/module-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ros2-communication",
+              "path": "/docs/module-1/ros2-communication",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/ros2-fundamentals",
+              "path": "/docs/module-1/ros2-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1/urdf-modeling",
+              "path": "/docs/module-1/urdf-modeling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/digital-twins-physics",
+              "path": "/docs/module-2/digital-twins-physics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/index",
+              "path": "/docs/module-2",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/sensor-simulation",
+              "path": "/docs/module-2/sensor-simulation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-2/simulation-environments",
+              "path": "/docs/module-2/simulation-environments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/index",
+              "path": "/docs/module-3",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/isaac-ros",
+              "path": "/docs/module-3/isaac-ros",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/isaac-sim",
+              "path": "/docs/module-3/isaac-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-3/nav2-humanoid",
+              "path": "/docs/module-3/nav2-humanoid",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/index",
+              "path": "/docs/module-4",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-4/voice-to-action",
+              "path": "/docs/module-4/voice-to-action",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

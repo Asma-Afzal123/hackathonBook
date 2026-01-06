@@ -1,0 +1,28 @@
+{
+  "id": "module-1/ros2-fundamentals",
+  "title": "ROS 2 Fundamentals",
+  "description": "Introduction to ROS 2 architecture and core concepts",
+  "source": "@site/docs/module-1/ros2-fundamentals.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ros2-fundamentals",
+  "permalink": "/docs/module-1/ros2-fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-1/ros2-fundamentals.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ROS 2 Fundamentals",
+    "sidebar_label": "Fundamentals",
+    "description": "Introduction to ROS 2 architecture and core concepts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/module-1"
+  },
+  "next": {
+    "title": "Communication",
+    "permalink": "/docs/module-1/ros2-communication"
+  }
+}

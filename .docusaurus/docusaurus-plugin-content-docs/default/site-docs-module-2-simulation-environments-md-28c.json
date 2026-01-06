@@ -1,0 +1,28 @@
+{
+  "id": "module-2/simulation-environments",
+  "title": "Simulation Environments",
+  "description": "Building robot worlds in Gazebo and high-fidelity interaction in Unity",
+  "source": "@site/docs/module-2/simulation-environments.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/simulation-environments",
+  "permalink": "/docs/module-2/simulation-environments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-2/simulation-environments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Simulation Environments",
+    "sidebar_label": "Simulation Environments",
+    "description": "Building robot worlds in Gazebo and high-fidelity interaction in Unity"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Digital Twins & Physics",
+    "permalink": "/docs/module-2/digital-twins-physics"
+  },
+  "next": {
+    "title": "Sensor Simulation",
+    "permalink": "/docs/module-2/sensor-simulation"
+  }
+}

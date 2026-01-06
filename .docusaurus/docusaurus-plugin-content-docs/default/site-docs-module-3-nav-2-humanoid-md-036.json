@@ -1,0 +1,28 @@
+{
+  "id": "module-3/nav2-humanoid",
+  "title": "Nav2 for Humanoid Navigation",
+  "description": "Path planning fundamentals for humanoid robots and navigation challenges specific to bipedal locomotion",
+  "source": "@site/docs/module-3/nav2-humanoid.md",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/nav2-humanoid",
+  "permalink": "/docs/module-3/nav2-humanoid",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-3/nav2-humanoid.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Nav2 for Humanoid Navigation",
+    "sidebar_label": "Nav2 for Humanoids",
+    "description": "Path planning fundamentals for humanoid robots and navigation challenges specific to bipedal locomotion"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac ROS",
+    "permalink": "/docs/module-3/isaac-ros"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/module-4"
+  }
+}

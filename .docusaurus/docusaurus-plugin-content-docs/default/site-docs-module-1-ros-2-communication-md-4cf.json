@@ -1,0 +1,28 @@
+{
+  "id": "module-1/ros2-communication",
+  "title": "ROS 2 Communication Patterns",
+  "description": "Understanding Topics vs Services vs Actions and Python agent control",
+  "source": "@site/docs/module-1/ros2-communication.md",
+  "sourceDirName": "module-1",
+  "slug": "/module-1/ros2-communication",
+  "permalink": "/docs/module-1/ros2-communication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-1/ros2-communication.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "ROS 2 Communication Patterns",
+    "sidebar_label": "Communication",
+    "description": "Understanding Topics vs Services vs Actions and Python agent control"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Fundamentals",
+    "permalink": "/docs/module-1/ros2-fundamentals"
+  },
+  "next": {
+    "title": "URDF Modeling",
+    "permalink": "/docs/module-1/urdf-modeling"
+  }
+}

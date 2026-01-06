@@ -1,0 +1,28 @@
+{
+  "id": "module-3/isaac-ros",
+  "title": "Isaac ROS",
+  "description": "Hardware-accelerated perception and VSLAM concepts in the Isaac ecosystem",
+  "source": "@site/docs/module-3/isaac-ros.md",
+  "sourceDirName": "module-3",
+  "slug": "/module-3/isaac-ros",
+  "permalink": "/docs/module-3/isaac-ros",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-3/isaac-ros.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Isaac ROS",
+    "sidebar_label": "Isaac ROS",
+    "description": "Hardware-accelerated perception and VSLAM concepts in the Isaac ecosystem"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac Sim",
+    "permalink": "/docs/module-3/isaac-sim"
+  },
+  "next": {
+    "title": "Nav2 for Humanoids",
+    "permalink": "/docs/module-3/nav2-humanoid"
+  }
+}

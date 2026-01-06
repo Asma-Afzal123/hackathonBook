@@ -1,0 +1,28 @@
+{
+  "id": "module-2/digital-twins-physics",
+  "title": "Digital Twins & Physics Simulation",
+  "description": "Understanding digital twins and physics simulation for humanoid robots",
+  "source": "@site/docs/module-2/digital-twins-physics.md",
+  "sourceDirName": "module-2",
+  "slug": "/module-2/digital-twins-physics",
+  "permalink": "/docs/module-2/digital-twins-physics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/module-2/digital-twins-physics.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Digital Twins & Physics Simulation",
+    "sidebar_label": "Digital Twins & Physics",
+    "description": "Understanding digital twins and physics simulation for humanoid robots"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction",
+    "permalink": "/docs/module-2"
+  },
+  "next": {
+    "title": "Simulation Environments",
+    "permalink": "/docs/module-2/simulation-environments"
+  }
+}
